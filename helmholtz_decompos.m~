@@ -41,11 +41,7 @@ if filt_flag==1
 end
 %%
 % Chose different regions. 
-id = find(traj.X<86 & traj.Y<27);
-traj.X(id) = NaN;
-traj.Y(id) = NaN;
-traj.U(id) = NaN;
-traj.V(id) = NaN;
+id = find(traj.X<86 & traj.Y<
 
 %% 
 for i =1:size(traj.X,2)
